@@ -8,7 +8,11 @@ export function middleware(request: NextRequest) {
   const token = cookieStore.get("user_token");
 
   // redirect logged-in users from login or register to dashboard
-  if (["/login", "/register"].some((path) => request.nextUrl.pathname.startsWith(path))) {
+  if (
+    ["/login", "/register"].some((path) =>
+      request.nextUrl.pathname.startsWith(path)
+    )
+  ) {
     if (token && token.value) {
       const url = request.nextUrl.clone();
       url.pathname = "/dashboard";
