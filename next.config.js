@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
+    domains: ['www.mzadat.om'],
     remotePatterns: [
       {
         protocol: 'https',
