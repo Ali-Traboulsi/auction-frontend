@@ -109,12 +109,12 @@ export default function CallToActionSection({ page_data }) {
           )}
         </div>
       </div>
-      <ModalVideo
-        channel="youtube"
-        isOpen={isOpen}
-        videoId={videoId}
-        onClose={closeModal}
-      />
+      {/*<ModalVideo*/}
+      {/*  channel="youtube"*/}
+      {/*  isOpen={isOpen}*/}
+      {/*  videoId={videoId}*/}
+      {/*  onClose={closeModal}*/}
+      {/*/>*/}
     </div>
   );
 }

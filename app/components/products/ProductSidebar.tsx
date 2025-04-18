@@ -185,7 +185,7 @@ export default function ProductSidebar({
           max={price_range}
           min={0}
           onInput={handlePriceChange}
-          suppressHydrationWarning
+          // suppressHydrationWarning
           className="auc-product-range wow fadeInUp"
           data-wow-delay="0.1s"
         />

@@ -75,13 +75,12 @@ const AuctionEscapeSection = ({ title, subtitle, video }) => {
               className="w-full rounded-[26px] h-[600px] object-cover"
             />
           </div>
-
-          <ModalVideo
-            channel="youtube"
-            isOpen={isOpen}
-            videoId={videoId}
-            onClose={closeModal}
-          />
+          {/*<ModalVideo*/}
+          {/*  channel="youtube"*/}
+          {/*  isOpen={isOpen}*/}
+          {/*  videoId={videoId}*/}
+          {/*  onClose={closeModal}*/}
+          {/*/>*/}
         </div>
       </div>
     </>
