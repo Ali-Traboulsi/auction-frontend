@@ -4,13 +4,13 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'yourdomain.com',
+        hostname: 'mazadat.om',
         port: '',
         pathname: '/**',
       },
       {
         protocol: 'http',
-        hostname: 'localhost',
+        hostname: 'mazadat.om',
         port: '',
         pathname: '/**',
       },
