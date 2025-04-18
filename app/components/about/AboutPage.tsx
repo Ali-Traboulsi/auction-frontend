@@ -44,7 +44,7 @@ const AboutPage = async () => {
         page_data={about_data?.data?.counter_section}
       />
       <KnowMoreSection
-        about_img={about_data?.data?.image}
+        about_img="/asset/img/about-img-1.png"
         about_details={about_data?.data?.details}
       />
       <AuctionWinner page_data={about_data?.data?.winner_section} />
